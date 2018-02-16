@@ -1,0 +1,23 @@
+{
+  "name": "week-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "recursion-practice-1.js",
+  "scripts": {
+    "test": "mocha spec/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mckennapaul27/week-3-recursion.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mckennapaul27/week-3-recursion/issues"
+  },
+  "homepage": "https://github.com/mckennapaul27/week-3-recursion#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.1"
+  }
+}

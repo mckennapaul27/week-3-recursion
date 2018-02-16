@@ -13,7 +13,7 @@ describe('search', function () {
     });
 });
 
-describe.only('flatten', function () {
+describe('flatten', function () {
     it('flattens an array', function () {
         expect(flatten([1, 2, 3, 4])).to.eql([1, 2, 3, 4]);
         expect(flatten([1, 2, 3, [1], 3])).to.eql([1, 2, 3, 1, 3]);

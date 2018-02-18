@@ -1,7 +1,7 @@
 const {expect} = require('chai');
 const {whiteSpaces} = require('../whiteSpaces');
 
-describe.only('whiteSpaces', function () {
+describe('whiteSpaces', function () {
     it('Should return a number', function () {
         expect(whiteSpaces('')).to.be.an('number');             
     });

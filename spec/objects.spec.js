@@ -2,7 +2,7 @@ var expect = require('chai').expect;
 var {search, flatten} = require('../objects');
 var {searchObj} = require('../objects');
 
-describe.only('searchObj', function () {
+describe('searchObj', function () {
     it('returns true if it finds a value in a flat object', function () {
         expect(searchObj({
             name: 'foo',

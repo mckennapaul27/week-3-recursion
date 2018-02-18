@@ -10,7 +10,7 @@ describe('fibonacci', function () {
     it('returns the correct number in the fibonacci sequence', function () {
         expect(fibonacci(2)).to.equal(1);
         expect(fibonacci(7)).to.equal(8);
-        epect(fibonacci(9)).to.equal(21);
+        expect(fibonacci(9)).to.equal(21);
         expect(fibonacci(10)).to.equal(34);
     });
 

@@ -1,7 +1,7 @@
 const {expect} = require('chai');
 const {sumsInteger} = require('../sumsInteger');
 
-describe.only('sumsInteger', function () {
+describe('sumsInteger', function () {
     it('Should return a number', function () {
         expect(sumsInteger(1)).to.be.an('number'); 
         expect(sumsInteger([1])).to.equal(0);            

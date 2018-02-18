@@ -10,9 +10,4 @@ module.exports = {
     factorial
 }
 
-
 factorial(10);
-
-
-
-

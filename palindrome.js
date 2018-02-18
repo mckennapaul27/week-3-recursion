@@ -3,7 +3,7 @@ function palindrome (str) {
 // Base case 
     str = str.match(/[A-Za-z]/g).join('').toLowerCase();  
 // makes string only letters and lowercase    
-    if (str[0] !== str[str.length-1]) return false;
+    if (str[0] !== str[str.length - 1]) return false;
 // first test - if first letter does not match last letter return false    
     else if (str.length === 1) return true;
 // This covers odd digit length strings

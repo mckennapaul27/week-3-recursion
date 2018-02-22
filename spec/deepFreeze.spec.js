@@ -1,7 +1,7 @@
 const expect = require('chai').expect;
 const deepFreeze = require('../deepFreeze');
 
-describe.only('deepFreeze', function () {
+describe('deepFreeze', function () {
     it('freezes a single level array', function () {
         let unfrozenArray1 = ['a', 'b', 'c', 'd', 'e'];
         let frozenArray1 = deepFreeze(unfrozenArray1);
